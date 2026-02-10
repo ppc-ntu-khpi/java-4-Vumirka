@@ -1,8 +1,8 @@
 package domain;
 
-public class Predator extends Animal {
-
-    public void hunt() {
-        System.out.println("Predator is hunting...");
+public class Herbivore extends Animal {
+    
+    public void graze() {
+        System.out.println("Herbivore is grazing in the meadow...");
     }
 }
